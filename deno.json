@@ -1,0 +1,9 @@
+{
+  "name": "@intpfx/toys",
+  "version": "0.0.1",
+  "exports": "./mod.ts",
+  "license": "MIT",
+  "tasks": {
+    "dev": "deno -A --unstable-worker-options mod.ts"
+  }
+}
